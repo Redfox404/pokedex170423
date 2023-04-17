@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react'
+import Deck from './assets/components/Deck'
 
 
 function App() {
@@ -8,9 +8,10 @@ function App() {
 
   return (
     <div className="App">
-      
-      <Deck />
+          <h1>On est dans APP</h1>
 
+      <Deck />
+      
 
 
     </div>
